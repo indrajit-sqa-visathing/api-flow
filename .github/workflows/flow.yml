@@ -22,4 +22,5 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman Collection
-        run: newman run ./postman/Account Distribution Cash In.postman_collection.json -e ./postman/VISAThing Internal API.postman_environment.json
+        run: newman run "./postman/Account Distribution Cash In.postman_collection.json" -e "./postman/VISAThing Internal API.postman_environment.json"
+
